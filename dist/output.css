@@ -583,16 +583,28 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
 .mt-40 {
   margin-top: 10rem;
 }
 
-.mt-80 {
-  margin-top: 20rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
 }
 
 .block {
@@ -675,14 +687,24 @@ video {
   line-height: 2.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-semibold {
@@ -695,10 +717,6 @@ video {
 
 .tracking-wider {
   letter-spacing: 0.05em;
-}
-
-.tracking-widest {
-  letter-spacing: 0.1em;
 }
 
 .text-emerald-800 {
@@ -746,8 +764,8 @@ video {
 .heading-title {
   margin-top: 0.5rem;
   font-family: Oswald;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   --tw-text-opacity: 1;
@@ -796,11 +814,6 @@ video {
     line-height: 1;
   }
 
-  .sm\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -822,31 +835,12 @@ video {
     margin-right: 0.25rem;
   }
 
-  .md\:-mt-32 {
-    margin-top: -8rem;
-  }
-
   .md\:mt-32 {
     margin-top: 8rem;
   }
 
   .md\:mt-\[350px\] {
     margin-top: 350px;
-  }
-
-  .md\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .md\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
   }
 
   .md\:text-\[80px\] {
@@ -874,6 +868,13 @@ video {
   .xl\:text-red-600 {
     --tw-text-opacity: 1;
     color: rgb(220 38 38 / var(--tw-text-opacity));
+  }
+}
+
+@media (min-width: 1320px) {
+  .\32xl\:text-amber-800 {
+    --tw-text-opacity: 1;
+    color: rgb(146 64 14 / var(--tw-text-opacity));
   }
 }
 

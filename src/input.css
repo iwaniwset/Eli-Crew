@@ -10,7 +10,7 @@
 }
 
 .heading-title {
-  @apply mt-2 text-3xl text-slate-800 font-bold font-oswald tracking-wider
+  @apply mt-2 text-2xl text-slate-800 font-bold font-oswald tracking-wider
 }
 
 .hamburger-line{
